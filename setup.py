@@ -6,10 +6,10 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
      name='jinja_gcs_loader',  
-     version='0.0.15',
+     version='0.0.16',
      author="Pedro Pinho",
      author_email="ptfpinho@hotmail.com",
-     install_requires=['google-cloud','Jinja2'],
+     install_requires=['google-cloud','Jinja2','google'],
      description="Simple Jinja2 GCS Template Loader",
      long_description=long_description,
    long_description_content_type="text/markdown",
