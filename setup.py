@@ -6,7 +6,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
      name='jinja_gcs_loader',  
-     version='0.0.16',
+     version='0.0.17',
      author="Pedro Pinho",
      author_email="ptfpinho@hotmail.com",
      install_requires=['google-cloud','Jinja2','google'],
